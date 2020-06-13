@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+		h1{
+			color:white;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1>Form</h1>
+		<hr>
+	</center>
+	<table cellpadding="2" cellspacing="3">
+		<tr>
+			<td><strong>Student Details</strong></td>
+		</tr>
+		<tr>
+			<td>First Name :-</td>
+			<td><input type="text" name="fname" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td>Last Name :-</td>
+			<td><input type="text" name="lname" maxlength="25"></td>
+		</tr>
+		<tr>
+			<td>College Name :-</td>
+			<td><input type="text" name="cname" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td>Phone no:- </td>
+			<td><input type="text" name="phone" maxlength="12"></td>
+		</tr>
+		<tr>
+			<td>Email :- </td>
+			<td><input type="text" name="email" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td>Course</td>
+			<td>
+				<select>
+					<option>B.tech</option>
+					<option>B.C.A.</option>
+					<option>B.B.A.</option>
+					<option>B.Pharma</option>
+					<option>D.Pharma</option>
+					<option>B.Ed</option>
+					<option>M.tech</option>
+					<option>M.B.A.</option>
+					<option>Polytechnic</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Year :- </td>
+			<td>
+				<input type="radio" name="year" value="1st">1<sup>st</sup>Year
+				<input type="radio" name="year" value="2nd">2<sup>nd</sup>Year
+				<input type="radio" name="year" value="3rd">3<sup>rd</sup>Year
+				<input type="radio" name="year" value="4th">4<sup>th</sup>Year
+			</td>
+		</tr>
+		<tr>
+			<td>Skills</td>
+			<td>
+				<ul>
+					<li><input type="checkbox" name="skills" value="C Language">C Language</li>
+					<li><input type="checkbox" name="skills" value="Python">Python</li>
+					<li><input type="checkbox" name="skills" value="DBMS">DBMS</li>
+					<li><input type="checkbox" name="skills" value="Java">Java</li>
+				</ul>	
+			</td>
+		</tr>
+		<tr>
+			<td>Special Acchivements</td>
+			<td><textarea name="textarea" cols="40" rows="8"></textarea></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="button" name="submit" value="Submit">
+				<input type="button" name="reset" value="Reset"/>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
